@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>intento de scroll</title>
+  </head>
+  <body>
+    <div class="container bg ">
+
+        <div class="row no-gutters headers">
+              <div class="logoDebian col-md-2"> </div>
+                <div class="col-md-5 offset-6  sbar">
+                    <input class="form-control py-2 border-right-0 border" type="search" placeholder="Search" id="example-search-input4">
+                </div>
+                <div class="sbar">
+                    <button class="btn btn-outline-secondary py-2 border-left-0 border" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+        </div>
+        <div class="row no-gutters banneroption">
+          <div class="banner col-md-6"> </div>
+          <div class="avatar col offset-7"> </div>
+          <div class="carrito col offset-8"></div>
+        </div>
+        <div class="row no-gutters nav-bar">
+            <div class="more col"> </div>
+            <nav class="navbar  navbar-expand-lg navbar-light offset-3 col-8">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item  col-4">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item col-4 ">
+                    <a class="nav-link" href="#">Tienda</a>
+                  </li>
+                  <li class="nav-item col-4 ">
+                    <a class="nav-link" href="#">Comunidad</a>
+                  </li>
+                  <li class="nav-item col-4 ">
+                    <a class="nav-link " href="#">Soporte</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+        </div>
+        <!-- Container del juego-->
+          <div class="container">
+            <div class="intro">
+              <div class="logo"></div>
+              <div class="botones row">
+                <button id="play" type="button" name="button" class="btn2 btn-secundary col-md-2 offset-md-1">JUGAR</button>
+                <button id="controles" type="button" name="button" class="btn2 btn-secundary col-md-2 offset-md-2">CONTROLES</button>
+                <button id="scores" type="button" name="button" class="btn2 btn-secundary col-md-2 offset-md-2">PUNTAJES</button>
+              </div>
+              <div class="controles container">
+                <div class="row align-items-start cc">
+                  <div class="spacebar col-3 ">
+                    <span class="st"> </span>
+                  </div>
+                  <div class="arrowkeys col offset-1"> MOVIMIENTO
+
+                    </div>
+                    <div class="col">
+                      <button id="back" type="button" name="button" class="btn2 btn-secundary col">VOLVER</button>
+
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="main">
+                <div class="fondo">
+                  <div class="espacio">
+                        <div class="info S"> SALVAR    </div>
+                        <div class="shipEX"> </div>
+                        <div class="info"> 100 Monedas    </div>
+                        <div class="info D"> DESTRUIR  </div>
+                        <div class="asteGrande">  </div>
+                        <div class="info AG"> 50 Monedas </div>
+                        <div class="asteChico"> </div>
+                        <div class="info AC"> 150 Monedas </div>
+                  </div>
+                  <div class="tablero">
+                    <div class="vidasN">
+                      <div class="vidas"> 3 </div>
+                    </div>
+                    <div class="coinP">
+                      <div class="puntaje"> 0 </div>
+                    </div>
+                  </div>
+                <div   class= "nave"id="nave"></div>
+                <div class="ast" id= "asteroide"></div>
+                <div class="misiles"></div>
+                <div class="ship"></div>
+                <div class="Loss"></div>
+                </div>
+            </div>
+            <div class="gameOver">
+              <div class="logo lGO "></div>
+              <div class="tablaPosi row">
+                  <div class="tP col-md" id="p0"> </div>
+                  <div class="w-100"></div>
+                  <div class="tP col-md"id="p1"> </div>
+                  <div class="w-100"></div>
+                  <div class="tP col-md"id="p2"> </div>
+                  <div class="w-100"></div>
+                  <div class="tP col-md"id="p3"> </div>
+                  <div class="w-100"></div>
+                  <div class="tP col-md"id="p4"> </div>
+              </div>
+              <div class=" offset-md-4 brk">
+                <button id="again" type="button" name="button" class="btn2 btn-secundary col-md-3 again offset-md-1">VOLVER A JUGAR</button>
+                <button id="menuIni" type="button" name="button" class="btn2 btn-secundary col-md-3 offset-md-1">MENU INICIO</button>
+              </div>
+
+
+            </div>
+            <div class="congratz container">
+              <h1 id="nuevoRecord">NUEVO RECORD!</h1>
+                      <div class="input-group mb-3">
+                      <input id="newName" type="text" class="form-control" placeholder="NickName" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                          <div class="input-group-append">
+                            <button id="name"class="btn btn-outline-secondary" type="button">ENVIAR</button>
+                          </div>
+                      </div>
+                    <div class="logo newRecordLogo"></div>
+            </div>
+          </div>
+        <!--Fin del container del juego-->
+          <div class="row no-gutters header">
+            <div class="footer col-12">
+
+            </div>
+          </div>
+    </div>
+
+
+  </body>
+  <script src="js/jquery-3.3.1.slim.min.js" ></script>
+  <script src="js/bootstrap.js" ></script>
+<script src="js/script.js" charset="utf-8"></script>
+</html>
