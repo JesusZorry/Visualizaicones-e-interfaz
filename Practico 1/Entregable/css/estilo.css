@@ -1,0 +1,25 @@
+body {
+  background-color: grey;
+  margin-top: 10px;
+}
+h2{
+  text-align: center;
+
+}
+button {
+  margin-bottom: 10px;
+}
+.lienzo {
+    background-color: white;
+}
+.imgchica{
+  width: 100%;
+  height:100%;
+
+}
+#canvas{
+  margin-left: -16px;
+  width: 760px;
+
+
+}
