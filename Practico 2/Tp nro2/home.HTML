@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+      <title>intento de 4 en raya</title>
+  </head>
+  <body>
+        <div class="container" id = "intro">
+          <div class="row justify-content-center align-items-center ">
+           <button id = "empieza" type="button" class="btn btn-primary center-block "><h7 id="comenzar">Comenzar</h7></button>
+           </div>
+           <div class="row justify-content-center align-items-center ">
+                   <h2 id = "gz"> Comienza el Jugador 1 (Amarillo) </h2>
+           </div>
+        </div>
+
+
+        <div class="row d-none" id="main">
+          <div class="col-md-2">
+            <h1> <span class="badge badge-warning ">Jugador1</span></h1>
+          </div>
+          <div class="col-md-9 pull-left">
+              <canvas id="canvas" width= "933" height="620" class="border"></canvas>
+          </div>
+          <div class="col-md-1">
+              <h1> <span class="badge badge-primary">Jugador2</span></h1>
+          </div>
+
+        </div>
+
+
+    <!-- Optional JavaScript -->
+    <script src="js/ficha.js"></script>
+    <script src="js/grilla.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+  </body>
+</html>

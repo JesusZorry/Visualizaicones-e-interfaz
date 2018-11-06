@@ -1,0 +1,28 @@
+body {
+  background-image: url("https://k44.kn3.net/taringa/1/6/1/4/7/8/23/ladypost/0F9.jpg?3269");
+  margin-top: 10px;
+}
+h2{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 75px;
+  font-style: italic;
+
+}
+h7{
+  margin-bottom: 10px;
+    font-size: 75px;
+}
+
+.badged-danger{
+    margin-left: 0px;
+
+}
+
+#canvas{
+  background-color: black;
+
+  margin-left: -16px;
+
+
+}
