@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Clase 1 - Template</title>
+	</head>
+	<body>
+		<canvas id="canvas" width="900" height="600"/>
+
+	</body>
+	<script>
+		var ctx = document.getElementById("canvas").getContext("2d");
+		// TODO: Utilizar el contexto 2D para dibujar
+		ctx.fillStyle = "#000000";
+		ctx.fillRect(250,25,150,150);
+		//fillRect(PositionHorizontal,PositionVertical,long,altura)
+		ctx.beginPath();
+		ctx.fillStyle="#558877";// selecciona el color a Utilizar
+		ctx.fillRect(320,95,10,10);
+		//fillRect(PositionHorizontal,PositionVertical,long,altura)
+		ctx.beginPath();
+	</script>
+</html>
